@@ -1,0 +1,26 @@
+/*
+Theme Name: 2020 Child-Theme
+Theme URI: localhost
+Description: 2020 Child-Theme
+Author: Stewart Hitchcock
+Author URI: https://github.com/StewartHitchcock
+Template: twentytwenty
+Version: 0.1
+*/
+
+@import url('../twentytwenty/style.css');
+
+.footer-widgets{
+    display: none;
+}
+
+.footer-widgets-outer-wrapper{
+    display: none;
+}
+
+ul.primary-menu{
+    display: flex;
+    
+    flex-wrap: nowrap;
+
+}
